@@ -1,6 +1,6 @@
 ## EssentiaConnect CTRM Demo
 
-EssentiaConnect is a showcase application that demonstrates how Essentia/EPAM can blend AI-assisted parsing with CTRM workflows. The goal is to give interviewers a tangible artifact that mirrors the day-to-day consulting work: connecting unstructured deal chatter to Allegro/Endur-style systems, validating compliance, and surfacing executive dashboards.
+EssentiaConnect is a showcase application that demonstrates how Essentia/EPAM can blend AI-assisted parsing with CTRM workflows. The goal is to showcase a tangible artifact that mirrors the day-to-day consulting work: connecting unstructured deal chatter to Allegro/Endur-style systems, validating compliance, and surfacing executive dashboards.
 
 ### Why it stands out
 - **Realistic workflow** – captures the analyst journey from email text to Allegro payload, exception review, and trade blotter updates.
