@@ -52,18 +52,3 @@ The repo ships with a lightweight Vite + Tailwind scaffold so you can demo the U
 
 > Vite loads `src/App.jsx` (also re-exported via the `app` directory), and Tailwind compiles the utility classes defined throughout the components.
 
-### Interview talk track
-Use this outline to guide the conversation:
-1. **Problem framing** – “Energy traders send deals over chat/email; we need to clean, validate, and sync them into Allegro faster.”
-2. **AI workflow** – highlight the `useTradeWorkflow` hook for parsing → validation → commit, and mention how you’d swap in a real OpenRouter/LLM call.
-3. **Exception management** – walk through the validation cards and how warnings route trades into “Review Required” before hitting the blotter.
-4. **Operational visibility** – show the dashboard KPIs and activity log to illustrate executive reporting hooks.
-5. **Extensibility** – call out the modular file structure that lets you add new tabs (e.g., risk stress tests) or plug the hook into a backend API layer.
-
-### Next ideas
-- Replace `simulateAIExtraction` with a serverless endpoint (OpenRouter) and capture latency/accuracy metrics.
-- Persist trades via a lightweight backend (Supabase, FastAPI, Rails) to show end-to-end integration.
-- Add automated tests around `useTradeWorkflow` to showcase TDD habits.
-
-Feel free to tailor the sample data, styling, or narrative to align with the specific client vertical you’re interviewing for (gas marketing, power, carbon, etc.). Good luck! 
-
