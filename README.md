@@ -31,12 +31,26 @@ src/
       DataPoint.jsx
 ```
 
-### Local usage
-1. Install dependencies (`npm install` or `pnpm install`) inside your preferred React tooling (Vite, Next, CRA).  
-2. Point your bundler’s entry to `src/App.jsx` (or import `App` and render it).  
-3. Run the dev server (`npm run dev`) and open the UI.
+### Local setup
+The repo ships with a lightweight Vite + Tailwind scaffold so you can demo the UI immediately.
 
-> The repository exposes `app` as a compatibility shim that simply re-exports `src/App.jsx`, so existing sandboxes keep working.
+1. **Install dependencies**
+   ```
+   npm install
+   ```
+2. **Run the dev server**
+   ```
+   npm run dev
+   ```
+   Open the URL that Vite prints (default `http://localhost:5173`).
+3. **Optional: production build**
+   ```
+   npm run build
+   npm run preview
+   ```
+   `preview` lets you smoke-test the production bundle locally.
+
+> Vite loads `src/App.jsx` (also re-exported via the `app` directory), and Tailwind compiles the utility classes defined throughout the components.
 
 ### Interview talk track
 Use this outline to guide the conversation:
